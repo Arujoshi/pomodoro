@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
+:root {
+  font-family: "DM Sans", sans-serif;
+
+  color: #3f3d56;
+  background: #f8f7f4;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  --background: #f8f7f4;
+  --card: #fffdf9;
+
+  --text: #3f3d56;
+  --muted: #8b8998;
+
+  --lavender: #dcd6f7;
+  --lavender-dark: #7568a8;
+
+  --peach: #f7d8c9;
+  --peach-dark: #b86f52;
+
+  --sage: #d8e7dc;
+  --sage-dark: #66816f;
+
+  --yellow: #f6e7b2;
+  --yellow-dark: #9a7b25;
+
+  --red-soft: #f3d0d0;
+  --red-dark: #a85c5c;
+
+  --blue-soft: #d5e4f3;
+  --blue-dark: #5c7895;
+
+  --border: #ebe7df;
+
+  --shadow: 0 10px 30px rgba(63, 61, 86, 0.07);
+
+  --radius: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+
+  background: var(--background);
+  color: var(--text);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid rgba(117, 104, 168, 0.2);
+  outline-offset: 2px;
+}
